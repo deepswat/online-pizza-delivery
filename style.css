@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister|Special+Elite&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+.top-nav-collapse {
+    background-color: #3f51b5 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+#tamu{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkgoldenrod;
+}
+.tam-nav-bar {
+    float: right;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+#tamu-text-end {
+    color:yellowgreen;
+}
+#push {
+    padding-top: 10%;
+}
+.landing-page-details {
+    margin-top: 5%;
+}
+.landing-page-details h1,h2 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+.landing-page-details h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: xx-large;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+.landing-page {
+    background-image: url("../image/background2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.myPizza {
+    color: lawngreen;
+}
+.tamu {
+    color: darkgoldenrod;
+}
+.go-button button {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    color: black;
+}
+.welcome-details {
+    margin-top: 160px;
+}
+.image-karibu {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 130px;
+    height: 400px;
+    width: 400px;
+}
+.txt {
+    font-family: system-ui, cursive;
+    color: black;
+    font-size: 23px;
+}
+.txt-big {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.welcome-details a {
+    text-decoration: none;
+    color: white;
+}
+figure img {
+    height: 260px;
+    width: 260px;
+}
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+.menu {
+    margin-top: 30px;
+    background-image: url("../image/dark.jpg");
+    padding: 0;
+}
+figcaption {
+    font-family: 'Oswald', serif;
+}
+#menu {
+    padding-top: 20px;
+}
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #000;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#sum-list {
+    color: #000;
+}
+.custdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color:darkgoldenrod;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+.deliver, .delivernot {
+    margin: 10px;
+}
+.details {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.go {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.contact {
+    padding-top: 20px;
+}
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.custdata-overlay {
+    display: none;
+}
+#order-alert {
+    margin-left: 45%;
+}
+h1#online-delivery {
+    text-align: center;
+}
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    #push {
+        padding-top: 40%;
+    }
+
+    .karibu-txt {
+        margin-top: 50px;
+    }
+
+    .menu-overlay {
+        width: 100%;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .image-karibu {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        height: 300px;
+        width: 270px;
+    }
+
+    .welcome {
+        padding-top: 10px;
+    }
+
+    .cdata {
+        padding: 10px 5px 10px 5px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+
+    .piz-pap {
+        font-size: 50px;
+    }
+
+    ul > .nav-items {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
+
+}
+
+
+
+
