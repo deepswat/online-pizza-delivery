@@ -7,7 +7,7 @@ My Pizza App
 A pizza ordering web application.
 
 ## Author:
-Frankline Simiyu
+Deepika Verma
 
 ## Setup:
 `git clone https://github.com/frank7841/My-Pizza.git` or download the zip file
