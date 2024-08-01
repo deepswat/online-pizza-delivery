@@ -35,6 +35,4 @@ Extract the zip file
 | Number of pizzas   | `eg 6`   |
 | Delivery mode   | `eg No delivery`   |
 
-## License:
- Frankline Simiyu 2020
- franklinewax@gmail.com
+
